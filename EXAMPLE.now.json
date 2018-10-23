@@ -1,0 +1,17 @@
+{
+    "public": true,
+    "type": "docker",
+    "features": {
+      "cloud": "v2"
+    },
+    "name": "NAME OF SERVICE",
+    "alias": "WHAT YOU WANT TO ALIAS THIS TO WITH `now alias`",
+    "build": {
+        "env": {
+            "NODE_ENV": "production"
+        }
+    },
+    "env": {
+        "ANY": "keyValuePairs"
+    }
+  }
